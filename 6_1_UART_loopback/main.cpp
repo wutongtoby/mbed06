@@ -10,7 +10,7 @@ Thread thread1;
 Thread thread2;
 
 Serial pc(USBTX, USBRX); // tx, rx
-Serial device1(D12, D11);  // tx, rx
+Serial device1(D12, D11);  // tx, rx, so there is UART pins too
 Serial device2(D1, D0);  // tx, rx
 
 char recv_from_pc;
